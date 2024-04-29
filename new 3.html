@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"facebook" </title>
+	<link rel="stylesheet" type="text/css" href="css/page2.css">
+	
+	</head>
+	<body>
+		<header>
+		<div class="main">
+			<div class="isip">
+				<img src="isip.png">			
+				</div>			
+				</div>
+			
+		</div>
+		<div class="title">
+			<center><h1>“QUESTIONS”</center>
+				<h3><p style="color:white;"><br>	
+			 
+	<h2><p style="color:white;">
+1.What led Sir Isaac Newton to make significant discoveries about the earth, sun, moon, and stars? </p></center><br>
+        <p style="color:white;">
+		<input type="Radio" name="question1" id="correct1">a) Observing a falling apple in his garden<br>
+ 		<input type="Radio" name="question1">b) Watching the lid of a tea kettle<br>
+ 		<input type="Radio" name="question1">c) Examining the movement of a chandelier in a cathedral<br>
+ 		<br>
+       
+
+
+
+	<h2><p style="color:white;">
+2.What did James Watt improve upon after pondering the movement of a tea kettle lid?
+
+	<br></br>
+		<input type="Radio" name="question2">a) Design of steamboats<br>
+		<input type="Radio" name="question2" id="correct2">b) Efficiency of steam engines<br>
+		<input type="Radio" name="question2">c) Construction of locomotives<br>
+		<br>
+	
+	<h2><p style="color:white;">
+3.What inspired Galileo to invent the pendulum?
+
+	<br></br>
+	    <input type="Radio" name="question3" id="correct3">a) Observing the movement of a chandelier<br>
+		<input type="Radio" name="question3">b) Examining the inside of a watch<br>
+		<input type="Radio" name="question3">c) Watching the steam in a tea kettle<br>
+		<a href="new 4.html">
+			<input type="submit" name="submit" value="SubmitAnswer" onclick="result()">
+		</a>
+		<script type="text/javascript">
+			function result() {
+				// body ...
+				var score=0
+				if (document.getElementById('correct1').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct2').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct3').checked)
+				{
+					score++;
+				}
+				
+				alert("Your score is "+score);
+			}
+		</script>
+		<br>
+		<br>
+	
+
+
+	
+			
+		<center><button><a href="new 1.html">BACK</button></center>
+			
+		
+		</header>
+	</body>
+	</html> 

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"facebook" </title>
+	<link rel="stylesheet" type="text/css" href="css/page14.css">
+	
+	</head>
+	<body>
+		<header>
+		<div class="main">
+			<div class="isip">
+				<img src="isip.png">			
+				</div>			
+				</div>
+		</div>
+		<div class="title"><br><br>
+			<center><h1>“QUESTIONS:”</center>
+				<h2> <p style="color:white;">	
+					1. What prompted Mr. Spugg to decide to send his chauffeur to the war?
+					<br>
+				<input type="Radio" name="question1">a. Boasting and bombast from club members.<br>
+				<input type="Radio" name="question1" id="correct1">b. A sense of simple earnestness and duty.<br>
+				<input type="Radio" name="question1">c. Peer pressure from the insurance company president.<br>
+				<input type="Radio" name="question1">d. A desire to impress the club members.
+				<br></br>
+				<h2> <p style="color:white;"> 
+					2. How did the insurance company president respond to Mr. Spugg's decision?<br>
+				<input type="Radio" name="question2"> a. He criticized Mr. Spugg for risking his chauffeur's life.<br>
+				<input type="Radio" name="question2" id="correct2"> b. He offered to cover any losses and introduced a special rate for war contributions.<br>
+				<input type="Radio" name="question2"> c. He questioned the necessity of sending the chauffeur to the war.<br>
+				<input type="Radio" name="question2"> d. He refused to provide any insurance coverage.
+				<br></br>
+				<h2> <p style="color:white;"> 
+					3. What service branch did Mr. Spugg consider for his chauffeur?<br>
+				<input type="Radio" name="question3"> a. Navy.<br>
+				<input type="Radio" name="question3"> b. Ground forces.<br>
+				<input type="Radio" name="question3" id="correct3"> c. Air force.<br>
+				<input type="Radio" name="question3"> d. Medical corps.<br>
+                <a href="new15.html">
+			<input type="submit" name="submit" value="SubmitAnswer" onclick="result()">
+		        </a>
+		<script type="text/javascript">
+			function result() {
+				// body ...
+				var score=0
+				if (document.getElementById('correct1').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct2').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct3').checked)
+				{
+					score++;
+				}
+				
+				alert("Your score is"+score);
+			}
+			</script>
+	
+			
+		<center><button><a href="new13.html">BACK</button></center>
+		</div>
+					
+
+		
+		
+		
+		</div>
+		
+		</header>
+	</body>
+	</html> 

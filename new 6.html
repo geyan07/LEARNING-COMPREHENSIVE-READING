@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"facebook" </title>
+	<link rel="stylesheet" type="text/css" href="css/page5.css">
+	
+	</head>
+	<body>
+		<header>
+		<div class="main">
+			<div class="isip">
+				<img src="isip.png">			
+				</div>			
+		</div>
+		<div class="title">
+			<center><h1>“QUESTIONS:”</center>
+			<br></br>
+				<h2> <p style="color:white;">
+				 1.What is the main focus of Mrs. Lindsey’s unit in the story? </center>	
+		<br><br/>
+		<input type="Radio" name="question1">a)Astrology and horoscopes<br>
+		<input type="Radio" name="question1" id="correct1">b) Celestial beings and constellations<br>
+		<input type="Radio" name="question1">c) Observing stars and planets at night<br>
+				<br></br>
+				<h2> <p style="color:white;">
+				2.How does Mrs. Lindsey differentiate between astrology and astronomy? </center>
+			<br><br/>
+		<input type="Radio" name="question2">a)Astrology is about horoscopes; astronomy deals with celestial bodies.<br>
+		<input type="Radio" name="question2" id="correct2">b) Astrology is a belief; astronomy is a branch of science.<br>
+		<input type="Radio" name="question2">c) Astrology involves astrological signs; astronomy involves star charts.<br>
+				<br></br>
+				<h2> <p style="color:white;">	
+				3.What did Mrs. Lindsey ask the students to do as part of their learning about astronomy?</center>
+			<br><br/>
+		<input type="Radio" name="question3">a)Predict their future based on astrological signs<br>
+		<input type="Radio" name="question3" id="correct3">b) Look at the sky and record visible constellations<br>
+		<input type="Radio" name="question3">c)  Learn about horoscopes and astrological charts<br><br><br>
+		<a href="new 7.html">
+			<input type="submit" name="submit" value="SubmitAnswer" onclick="result()">
+		</a>
+		<script type="text/javascript">
+			function result() {
+				// body ...
+				var score=0
+				if (document.getElementById('correct1').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct2').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct3').checked)
+				{
+					score++;
+				}
+				
+				alert("Your score is"+score);
+			}
+		</script>
+
+	
+			
+		<center><button><a href="new 5.html">BACK</button></center>
+		</div>
+					
+
+		
+		
+		
+		</div>
+		
+		</header>
+	</body>
+	</html> 

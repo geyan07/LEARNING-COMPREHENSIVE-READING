@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"facebook" </title>
+	<link rel="stylesheet" type="text/css" href="css/page9.css">
+	
+	</head>
+	<body>
+		<header>
+		<div class="main">
+			<div class="isip">
+				<img src="isip.png">			
+				</div>			
+		</div>
+		<div class="title">
+			<center><h1>“QUESTIONS:”</center><br>
+				<h2> <p style="color:white;">	
+					
+		1. What was an integral part of Robert Louis Stevenson’s novel “Treasure Island”?
+					<br><br/>
+		<input type="Radio" name="question1">a) A talking parrot<br>
+		<input type="Radio" name="question1" id="correct1">b)A detailed map with an X<br>
+		<input type="Radio" name="question1">c)A one-legged pirate<br>
+				<br></br>
+				<h2> <p style="color:white;"> 
+		2. Who influenced the character of Long John Silver in “Treasure Island”?
+					<br><br/>
+		<input type="Radio" name="question2">a) Stevenson’s stepson<br>
+		<input type="Radio" name="question2" id="correct2">b)A one-legged friend of Stevenson<br>
+		<input type="Radio" name="question2">c)A notorious pirate in history<br>
+	<br></br>
+	<h2> <p style="color:white;"> 
+		3. According to the passage, what did Stevenson use to shape the pirate imagery in “Treasure Island”?
+		<br><br/>
+		<input type="Radio" name="question3">a) Pirate history<br>
+		<input type="Radio" name="question3" id="correct3">b) His imagination, books, and people he knew<br>
+		<input type="Radio" name="question3">c) A detailed map with an X<br>
+
+		<a href="new10.html">
+			<input type="submit" name="submit" value="SubmitAnswer" onclick="result()">
+		</a>
+		<script type="text/javascript">
+			function result() {
+				// body ...
+				var score=0
+				if (document.getElementById('correct1').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct2').checked)
+				{
+					score++;
+				}
+				if (document.getElementById('correct3').checked)
+				{
+					score++;
+				}
+				
+				alert("Your score is"+score);
+			}
+			</script>
+
+	
+			
+		<center><button><a href="page8.html">BACK</button></center>
+		</div>
+					
+
+		
+		
+		
+		</div>
+		
+		</header>
+	</body>
+	</html> 
